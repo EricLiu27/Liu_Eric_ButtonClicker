@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+
+    height: 900px;
+    margin: 0 90px;
+}
+
+/* header */
+
+header {
+    background-color: aquamarine;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+header>input {
+    border: 2px solid black;
+
+}
+
+header>button {
+
+    background: #2b78e4;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    box-shadow: 4px 4px black;
+}
+
+/* Everything Below the header */
+
+.contents {
+
+    height: 800px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around
+}
+
+/* leftpage */
+
+.leftpage {
+    Flex: 2;
+    margin-right: 10px;
+}
+
+
+
+.text {
+    word-wrap: normal
+}
+
+.leftpage>section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section {
+    margin-bottom: 10px;
+    border: 3px solid black
+}
+
+/* rightpage*/
+.rightpage {
+    margin-left: 10px;
+    Flex: 2
+}
+
+section>button {
+    background-color: limegreen;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    width: 150px;
+}
+
+.ninja>button {
+    background-color: rgb(255, 217, 102);
+    border: black 2px solid;
+    margin-bottom: 10px
+}
